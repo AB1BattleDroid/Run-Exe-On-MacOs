@@ -5,3 +5,6 @@ use config to configure wine
 
 
 use run to run the apps
+
+
+use desktop to run a emulate a windows desktop
