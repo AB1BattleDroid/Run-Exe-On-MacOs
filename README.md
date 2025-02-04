@@ -1,7 +1,7 @@
 # Run-Exe-On-MacOs
 Run exe files on MacOs
 
-use config to configure wine
+use config to configure 
 
 
 use run to run the apps
