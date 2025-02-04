@@ -25,7 +25,7 @@ brew install samba
 brew install xquartz
 
 
-winetricks vcrun2010 vcrun2012 vcrun2013 vcrun2015 vcrun2019 dotnet472 comctl32 d3dx9 2>&1 | grep -i -e "error:" -e "err:" -e "fixme:" -e "Warning:" -e "warning:" > issues.log
+winetricks vcrun2010 vcrun2012 vcrun2013 vcrun2015 vcrun2019 dotnet472 dotnet48 winhttp comctl32 d3dx9 dxvk 2>&1 | grep -i -e "error:" -e "err:" -e "fixme:" -e "Warning:" -e "warning:" > issues.log
 
 wineboot -u
 
